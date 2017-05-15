@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    android:gravity="center_horizontal"
+    tools:context="zhanel.kz.a2zhaskanba.LoginActivity2">
+
+
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        />
+    <Button
+
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id ="@+id/signUpButton"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Войти" />
+    <Button
+
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id ="@+id/InButton"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Зарегестироваться" />
+    <Button
+        android:onClick="onInstagramSignInPressed"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id ="@+id/loginButton"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/black"
+        android:drawableRight="@drawable/instagram2"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</LinearLayout>
